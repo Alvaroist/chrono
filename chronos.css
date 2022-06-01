@@ -1,22 +1,23 @@
 .countdown div{
-    font-size: 4em;
-    padding: 4px;
+    font-size: 3em;
     background-color: rgb(0, 255, 242);
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 60px;
     margin: 4px;
     border-style: inset;
-    align-self: center;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .title div{
-    font-size:1.3em;
+    font-size:1.0em;
     font-weight: bold;
     padding: 4px;
-    margin: 4px;
-    width: 85px;
-    height: 20px;
+    margin: 0px;
+    width: 75px;
+    height: 15px;
     align-self: center;
+    text-align: center;
 }
 
 .title{
@@ -26,12 +27,13 @@
     display: flex;
     justify-content:center;
     align-content: center;
+    width: 345px;
 }
 .countdown{
     width: auto;
     margin: 0px;
     padding: 0px;
-    height: 120px;
+    height: 77px;
     display: flex;
     justify-content:center;
     align-content: center;
@@ -39,8 +41,12 @@
 
 .chrono{ /*main container*/ 
     font-family: Helvetica;
-    border-style: inset;
     background-color: rgb(0, 98, 255);
-    width: 40%;
-    height: 175px;
+    width: 350px;
+    height: 130px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
 }
